@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Тест на риск субсидиарной ответственности</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>Тест: Риск субсидиарной ответственности</h1>
+            <p>Ответьте на 10 вопросов и оцените свои риски</p>
+        </header>
+        
+        <div id="test-container">
+            <div id="question-container">
+                <h2 id="question-text"></h2>
+                <div class="answers">
+                    <button class="btn-answer" data-answer="yes">Да</button>
+                    <button class="btn-answer" data-answer="no">Нет</button>
+                </div>
+            </div>
+            
+            <div id="progress">
+                <div id="progress-bar"></div>
+                <span id="progress-text">Вопрос 1 из 10</span>
+            </div>
+        </div>
+        
+        <div id="result-container" style="display: none;">
+            <h2>Ваш результат</h2>
+            <div id="result-content"></div>
+            <button id="restart-btn">Пройти тест заново</button>
+        </div>
+        
+        <footer>
+            <p>Тест предоставлен <strong>[Ваша команда]</strong></p>
+            <p><small>Тест не является юридической консультацией</small></p>
+        </footer>
+    </div>
+    
+    <script src="script.js"></script>
+</body>
+</html>
